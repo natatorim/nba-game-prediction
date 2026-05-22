@@ -70,7 +70,7 @@ All models use StandardScaler fitted on training data only.
 ## Reproducing the Data
 Data collected from the NBA Stats API using the `nba_api` Python library.
 
-Run `ok.ipynb` three times, changing the rolling window parameter to 5, 20, and 50.  
+Run `datascrape.ipynb` three times, changing the rolling window parameter to 5, 20, and 50.  
 Save outputs as:
 - `window=5` → `nba_long_dataset.csv`
 - `window=20` → `nba_long_dataset2.csv`
